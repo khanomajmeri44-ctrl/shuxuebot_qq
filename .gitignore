@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Database (contains user data)
+shuxue_v10_core.db
+shuxue_v10_core.db-wal
+shuxue_v10_core.db-shm
+*.db
+*.db-wal
+*.db-shm
+
+# Config (contains secrets)
+config.json
+
+# Logs
+logs/
+*.log
+
+# Cache
+cache/
+file_scan_cache.json
+
+# ChromaDB vector store
+chroma_global_brain/
+
+# Emotes (user assets)
+emotes/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

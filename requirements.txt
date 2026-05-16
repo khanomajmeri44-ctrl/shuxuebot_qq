@@ -1,0 +1,4 @@
+aiohttp>=3.9
+aiosqlite>=0.19
+websockets>=12.0
+tenacity>=8.2
